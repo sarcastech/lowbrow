@@ -16,7 +16,14 @@ function lowbrow (site) {
       return domain.match(regex)
     })
 
-    exec(`open http://${ip.split(': ')[1]}`)
+    exec(`open http://${ip.split(': ')[1]}`, function (err, stdout) {
+      if (err) {
+        console.log('Exec Error: ', err)
+        return false
+      }
+
+      console.log(`opened ${site}`)
+    })
   })
 }
 
