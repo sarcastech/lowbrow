@@ -16,7 +16,7 @@ function lowbrow (fileName, site, callback) {
       return domain.match(regex)
     })
 
-    exec(`open http://${ip.split(': ')[1]}`, callback || noop)
+    exec(`open http://${ip.split(':')[1]}`, callback || noop)
   })
 }
 
