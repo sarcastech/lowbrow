@@ -1,0 +1,24 @@
+{
+  "name": "lowbrow",
+  "version": "1.0.0",
+  "description": "Open a browser window using a specified domain's IP address",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarcastech/lowbrow.git"
+  },
+  "keywords": [
+    "browser",
+    "window",
+    "unix-based-only"
+  ],
+  "author": "Sarcastech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarcastech/lowbrow/issues"
+  },
+  "homepage": "https://github.com/sarcastech/lowbrow#readme"
+}
