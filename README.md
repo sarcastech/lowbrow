@@ -1,2 +1,2 @@
 # lowbrow
-Open a browser window using a specified domain's IP address
+Writable stream that opens a browser window from stream a url sent by a readable stream
